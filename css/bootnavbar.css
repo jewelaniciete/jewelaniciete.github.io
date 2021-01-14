@@ -1,0 +1,116 @@
+.navbar-brand {
+  font-size:20px;
+  color:white;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.navFLink {
+    margin-left:1.5rem;
+}
+
+.navbar-brand:hover {
+  color:black;
+}
+
+nav.shrink .navbar-brand {
+  color:#222;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size:14px;
+    transition: .3s ease-in-out;
+    padding:5vmin 5vw;
+   
+  }
+  
+  nav.shrink.navbar {
+    background:#899499;
+    font-size:12px;
+    padding:1vh 3rem;
+  }
+
+  .nav-link:hover {
+    background: #f6f6f6;
+    color:#222;
+    border-bottom:2px solid #f6f6f6;
+  }
+
+  nav.shrink .nav-link:hover {
+    background: #222;
+    color:GhostWhite;
+	
+  }
+
+  .navbar-nav li {
+    letter-spacing:.1rem;
+    
+  }
+
+  .nav-link {
+    color:#f6f6f6;
+    padding-top: .8rem;
+    transition: .5s ease;
+    border-bottom: 2px solid transparent;
+	
+  }
+  .dropdown-menu{
+    font-size:12px;
+
+  }
+  
+  nav.shrink .nav-link {
+    color:#222;
+  }
+  
+  .navbar-nav .nav-link.active
+  {
+    border-bottom:2px solid white;
+  }
+
+  nav.shrink .navbar-nav .nav-link.nav-link.active {
+    border-bottom:2px solid #222;
+  }
+
+  nav.shrink .dropdown-menu {
+    font-size:10px;
+  }
+
+.dropdown-menu {
+    margin-top: -1vh;
+    border-color:#f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 0;
+    transition:1s ease;
+}
+
+.dropdown-menu .dropdown-toggle::after {
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+
+.dropdown-menu .dropdown .dropdown-menu {
+    left: 100%;
+    top: 0%;
+}
+
+.dropdown-menu > li a {
+    transition:.1s ease;
+}
+
+.dropdown-menu > li a:hover,
+.dropdown-menu > li.show {
+	background-color:#222;
+	color: #f6f6f6;
+}
+.dropdown-menu > li.show > a{
+	color: white;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu .dropdown .dropdown-menu {
+        margin:0;
+        border-width: 1px;
+    }
+}

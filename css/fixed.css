@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Josefin+Sans|Source+Sans+Pro&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+  }
+
+body {
+    overflow-x:hidden;
+    background-color:#E5E4E2;
+}
+
+h1, h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight:400;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a {
+    font-family:'Josefin Sans';
+}
+
+
+.margin15 {
+    margin-top: 15vh;
+}
+
+.margin10 {
+    margin-top:10vh;
+}
+
+.margin5 {
+    margin-top:5vh;
+}
+
+.quote {
+    text-align: center;
+    padding:2.5vh 10vw;
+    line-height: 4vh;
+    font-size:22px;
+    font-weight:300;
+    color:black;
+    font-style: italic;
+}
+
+.subTitle h2{
+    text-align: center;
+    font-size:45px;
+}
+
+.subTitle p {
+    font-size:18px;
+    text-align:center;
+    width:80%;
+    margin:2vh 10%;
+}
+
+.subTitle hr {
+    margin:2.5vh 15%;
+    width:70%;
+    border:.5px solid #555;
+    background-color:#555;
+}
+
+.template3 {
+    padding:5vmin;
+    text-align: center;
+    font-size:18px;
+    line-height:4vh;
+}
+
+.template3C h1 {
+    font-size:45px;
+}
+
+.template3I {
+    display:flex;
+    padding:3vmin;
+}
+
+.template3Img {
+    padding:0;
+}
+
+
+@media only screen and (min-width:800px) {
+
+.wrapper {
+    width:800px;
+    margin:0 auto;
+}
+    
+}
+
+@media only screen and (min-width:992px) {
+
+.wrapper {
+    width:992px;
+    margin:0 auto;
+}
+
+}
+
+@media only screen and (min-width:1200px) {
+
+.wrapper {
+    width:1200px;
+    margin:0 auto;
+}
+
+}
+
+@media only screen and (min-width:1400px) {
+
+    .wrapper {
+        width:1400px;
+        margin:0 auto;
+    }
+    
+    }
+
+
+/* !BOOTSTRAP BREAK POINTS:
+
+!Extra small (xs) devices (portrait phones, less than 576px)
+!No media query since this is the default in Bootstrap
+
+!Small (sm) devices (landscape phones, 576px and up)
+!@media (min-width: 576px) { ... }
+
+!Medium (md) devices (tablets, 768px and up)
+!@media (min-width: 768px) { ... }
+
+!Large (lg) devices (desktops, 992px and up) 
+!@media (min-width: 992px) { ... }
+
+!Extra (xl) large devices (large desktops, 1200px and up)
+!@media (min-width: 1200px) { ... }
+
+! */
